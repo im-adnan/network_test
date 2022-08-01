@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return BlocProvider(
       create: (context) => InternetBloc(),
       child: MaterialApp(
-        title: 'Internel Connectivity',
+        title: 'Internel Connectivity test',
         home: HomeScreen(),
       ),
     );
